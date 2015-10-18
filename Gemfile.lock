@@ -8,6 +8,8 @@ GEM
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
     dotenv (2.0.2)
+    haml (4.0.7)
+      tilt
     http_router (0.11.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
@@ -55,6 +57,7 @@ GEM
     rack-test (0.6.3)
       rack (>= 1.0)
     rake (10.4.2)
+    sass (3.4.19)
     sequel (4.27.0)
     shotgun (0.9.1)
       rack (>= 1.0)
@@ -71,8 +74,10 @@ PLATFORMS
 DEPENDENCIES
   bundler
   capybara
+  haml
   lotus-model (~> 0.5)
   lotusrb (= 0.5.0)
   minitest
   pg
   rake
+  sass
